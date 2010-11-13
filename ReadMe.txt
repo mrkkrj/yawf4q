@@ -1,9 +1,9 @@
 ========================================================================
-    YAWF: a pluggable mini HTTP server & template engine for Qt 
+    YAWF4q: a pluggable mini HTTP server & template engine for Qt 
 ========================================================================
 
 Qt-only (no other dependencies) module to add a simple Web interface to your Qt application.
-Uses Qt 4.5. Need to set the QTLIB env var to compile the VS project.
+Uses Qt4. You'll need to set the QTLIB envvar to compile the VS project.
 
 -- 1. Use it like this:
 
