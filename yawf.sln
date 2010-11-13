@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C++ Express 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "yawf", "yawf.vcproj", "{1A617AB5-45DE-4DE6-A3A9-4C9282D32AF5}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "moustTest", "moustTest\moustTest.vcproj", "{FEF73F3C-0F8A-46FB-A2A1-1C4F506F92EF}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A617AB5-45DE-4DE6-A3A9-4C9282D32AF5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1A617AB5-45DE-4DE6-A3A9-4C9282D32AF5}.Debug|Win32.Build.0 = Debug|Win32
+		{1A617AB5-45DE-4DE6-A3A9-4C9282D32AF5}.Release|Win32.ActiveCfg = Release|Win32
+		{1A617AB5-45DE-4DE6-A3A9-4C9282D32AF5}.Release|Win32.Build.0 = Release|Win32
+		{FEF73F3C-0F8A-46FB-A2A1-1C4F506F92EF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FEF73F3C-0F8A-46FB-A2A1-1C4F506F92EF}.Debug|Win32.Build.0 = Debug|Win32
+		{FEF73F3C-0F8A-46FB-A2A1-1C4F506F92EF}.Release|Win32.ActiveCfg = Release|Win32
+		{FEF73F3C-0F8A-46FB-A2A1-1C4F506F92EF}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(DPCodeReviewSolutionGUID) = preSolution
+		DPCodeReviewSolutionGUID = {00000000-0000-0000-0000-000000000000}
+	EndGlobalSection
+EndGlobal

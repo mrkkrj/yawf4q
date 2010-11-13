@@ -1,0 +1,16 @@
+
+#
+# YAWF test configuration
+#
+
+index.html$ :: TestHandlerBase
+person$ :: TestHandlerPerson
+
+### OPEN TODO:::
+#person$     :: TestHandlerPerson <--- doesn't work!
+## or ->
+#person/.*$ -> TestHandlerPerson
+
+## double dispatch ->
+#person/create$   :: TestHandlerPerson::create
+#person/show$     :: TestHandlerPerson::show
